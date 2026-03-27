@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="80" fill="#6366f1"/>
+  <!-- Cross -->
+  <rect x="232" y="96" width="48" height="320" rx="12" fill="#fff"/>
+  <rect x="128" y="192" width="256" height="48" rx="12" fill="#fff"/>
+</svg>
