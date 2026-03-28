@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "mrg32k3a": "github:marverix/MRG32k3a-js",
     "pinia": "^2.1.7",
     "vue": "^3.4.0"
   },

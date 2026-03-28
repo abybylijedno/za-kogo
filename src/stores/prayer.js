@@ -1,5 +1,6 @@
 import { defineStore } from 'pinia'
 import { ref, watch } from 'vue'
+import mrg32k3a from 'mrg32k3a'
 
 const STORAGE_KEYS = {
   maleNames: 'za-kogo-male',
@@ -43,7 +44,7 @@ export const usePrayerStore = defineStore('prayer', () => {
 
     if (all.length === 0) return
 
-    const picked = all[Math.floor(Math.random() * all.length)]
+    const picked = all[Math.floor(mrg32k3a() * all.length)]
     currentPrayer.value = picked
   }
 
